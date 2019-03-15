@@ -1,0 +1,67 @@
+.red{
+    background-color: rgb(211, 211, 211);
+    height: 20px;
+}
+.container{
+    background-color: rgb(255, 221, 147);
+}
+.flex-row{
+    margin-top: 20px;
+}
+.resulta{
+    margin-top: 10px;
+    float: right;
+    width:250px;
+    margin-left: 820px;
+}
+#total{
+    float: right;
+}
+#border{
+    border: solid;
+    margin-top: 30px;
+}
+.pp{
+    padding-top: 10px;
+}
+
+#opaciti{
+    z-index: -9;
+}
+
+#popup{
+    outline: none;
+    display: none;
+    background-color:rgba(255, 255, 255, 0.9);
+    width: 25%;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    height: 170px;
+    margin-top: 200px;
+    margin-left: 200px;
+    text-align: center;
+    border: 3px solid #f1f1f1;
+    border-radius:30px;
+    position: absolute;
+    box-shadow: 2px 7px rgba(0, 0, 0, 0.13);
+    position: fixed;
+    top: 0;
+    left: 303px;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    background: rgba(255, 255, 255, 0.9);
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    opacity: 0;
+    -webkit-animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+    -moz-animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+    -o-animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+    animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+   }
